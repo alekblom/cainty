@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" fill="none">
+  <!-- Cainty Logo: Icon + Wordmark -->
+  <!-- Icon: Stylized C with circuit/AI nodes -->
+  <g transform="translate(4, 4)">
+    <!-- Outer C shape -->
+    <path d="M20 0C8.954 0 0 8.954 0 20s8.954 20 20 20c5.523 0 10.51-2.239 14.142-5.858" stroke="#ffe454" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Inner circuit nodes -->
+    <circle cx="20" cy="8" r="2.5" fill="#ffe454"/>
+    <circle cx="10" cy="20" r="2.5" fill="#ffe454"/>
+    <circle cx="20" cy="32" r="2.5" fill="#ffe454"/>
+    <!-- Neural connection lines -->
+    <line x1="20" y1="8" x2="10" y2="20" stroke="#ffe454" stroke-width="1.5" opacity="0.5"/>
+    <line x1="10" y1="20" x2="20" y2="32" stroke="#ffe454" stroke-width="1.5" opacity="0.5"/>
+    <!-- AI spark dot -->
+    <circle cx="32" cy="12" r="3" fill="#ffe454"/>
+    <circle cx="32" cy="12" r="5" fill="#ffe454" opacity="0.2"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="52" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="#ffe454" letter-spacing="-0.02em">cainty</text>
+</svg>

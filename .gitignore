@@ -1,0 +1,45 @@
+# Environment
+.env
+
+# Database
+storage/cainty.db
+storage/cainty.db-journal
+storage/cainty.db-wal
+storage/cainty.db-shm
+
+# Uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Cache
+storage/cache/*
+!storage/cache/.gitkeep
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Agent memory
+storage/agents/*
+!storage/agents/.gitkeep
+
+# Install lock
+storage/installed.lock
+
+# Dependencies
+vendor/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# SSL/ACME
+.well-known/
+
+# OS
+.DS_Store
+Thumbs.db
