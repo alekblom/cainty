@@ -1,10 +1,11 @@
 <!-- Landing Hero -->
 <section class="landing-hero">
     <div class="container">
+        <img src="<?= cainty_asset('assets/img/cainty-icon.svg') ?>" alt="Cainty" class="landing-hero-logo">
         <h1 class="landing-hero-title">AI-First<br>Open Source CMS</h1>
         <p class="landing-hero-tagline">Create, manage, and automate content with AI agents.<br>6 LLM providers. 24+ models. Zero code required.</p>
         <div class="landing-hero-cta">
-            <a href="https://github.com/alexiuz/cainty" class="btn btn-accent" target="_blank" rel="noopener">View on GitHub</a>
+            <a href="https://github.com/alekblom/cainty" class="btn btn-accent" target="_blank" rel="noopener">View on GitHub</a>
             <a href="<?= cainty_url('docs/installation') ?>" class="btn btn-outline">Get Started</a>
         </div>
     </div>
@@ -107,7 +108,7 @@
                     <li>Community support</li>
                     <li>MIT license</li>
                 </ul>
-                <a href="https://github.com/alexiuz/cainty" class="btn btn-outline btn-block" target="_blank" rel="noopener">Clone on GitHub</a>
+                <a href="https://github.com/alekblom/cainty" class="btn btn-outline btn-block" target="_blank" rel="noopener">Clone on GitHub</a>
             </div>
             <div class="landing-pricing-card landing-pricing-featured">
                 <div class="landing-pricing-badge">Recommended</div>

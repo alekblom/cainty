@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/alexiuz/cainty/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-ffe454?style=flat-square" alt="MIT License"></a>
+  <a href="https://github.com/alekblom/cainty/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-ffe454?style=flat-square" alt="MIT License"></a>
   <img src="https://img.shields.io/badge/PHP-8.2+-777bb4?style=flat-square&logo=php&logoColor=white" alt="PHP 8.2+">
   <img src="https://img.shields.io/badge/database-SQLite%20%7C%20MySQL-4479a1?style=flat-square" alt="SQLite | MySQL">
 </p>
@@ -44,7 +44,7 @@
 
 ```bash
 # 1. Clone
-git clone https://github.com/alexiuz/cainty.git
+git clone https://github.com/alekblom/cainty.git
 cd cainty
 
 # 2. Configure
