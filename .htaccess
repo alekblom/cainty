@@ -23,8 +23,9 @@
     RewriteCond %{REQUEST_FILENAME} -f
     RewriteRule ^ - [L]
 
-    # Skip existing directories
+    # Skip existing directories (except admin which needs routing)
     RewriteCond %{REQUEST_FILENAME} -d
+    RewriteCond %{REQUEST_URI} !^/admin [NC]
     RewriteRule ^ - [L]
 
     # Send everything else to index.php

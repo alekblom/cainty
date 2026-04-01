@@ -17,6 +17,7 @@ use Cainty\Controllers\AdminMediaController;
 use Cainty\Controllers\AdminAgentController;
 use Cainty\Controllers\AdminQueueController;
 use Cainty\Controllers\AdminSettingsController;
+use Cainty\Controllers\TemplateAgentController;
 use Cainty\Controllers\DocsController;
 
 // Register middleware handlers
@@ -83,6 +84,11 @@ $router->group('/admin', function ($router) {
     $router->post('/queue/{id}/approve', [AdminQueueController::class, 'approve']);
     $router->post('/queue/{id}/reject', [AdminQueueController::class, 'reject']);
     $router->post('/queue/{id}/update', [AdminQueueController::class, 'update']);
+
+    // Template Agent
+    $router->get('/template-agent', [TemplateAgentController::class, 'index']);
+    $router->post('/template-agent/generate', [TemplateAgentController::class, 'generate']);
+    $router->post('/template-agent/save', [TemplateAgentController::class, 'save']);
 
     // Settings
     $router->get('/settings', [AdminSettingsController::class, 'index']);

@@ -26,6 +26,7 @@
                     'agent-runs' => '/admin/agents/runs.php',
                     'queue' => '/admin/queue/index.php',
                     'queue-review' => '/admin/queue/review.php',
+                    'template-agent' => '/admin/template-agent/index.php',
                     'settings' => '/admin/settings/index.php',
                     'llm-keys' => '/admin/settings/llm-keys.php',
                 ];

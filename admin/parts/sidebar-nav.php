@@ -25,6 +25,9 @@
         <a href="<?= cainty_admin_url('queue') ?>" class="nav-item <?= in_array($adminPage ?? '', ['queue', 'queue-review']) ? 'active' : '' ?>">
             <span class="nav-icon">&#9993;</span> Queue
         </a>
+        <a href="<?= cainty_admin_url('template-agent') ?>" class="nav-item <?= ($adminPage ?? '') === 'template-agent' ? 'active' : '' ?>">
+            <span class="nav-icon">&#9878;</span> Template Agent
+        </a>
         <div class="nav-divider"></div>
         <a href="<?= cainty_admin_url('settings') ?>" class="nav-item <?= in_array($adminPage ?? '', ['settings', 'llm-keys']) ? 'active' : '' ?>">
             <span class="nav-icon">&#9881;</span> Settings
